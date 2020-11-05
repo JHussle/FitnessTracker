@@ -56,9 +56,10 @@
 		D4789B1525537F0A00297067 /* FitnessTracker */ = {
 			isa = PBXGroup;
 			children = (
+				D4789B2D2553886000297067 /* Views */,
+				D4789B2B25537FCF00297067 /* ContentView */,
 				D4789B1625537F0A00297067 /* AppDelegate.swift */,
 				D4789B1825537F0A00297067 /* SceneDelegate.swift */,
-				D4789B1A25537F0A00297067 /* ContentView.swift */,
 				D4789B1C25537F0D00297067 /* Assets.xcassets */,
 				D4789B2125537F0D00297067 /* LaunchScreen.storyboard */,
 				D4789B2425537F0D00297067 /* Info.plist */,
@@ -73,6 +74,21 @@
 				D4789B1F25537F0D00297067 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4789B2B25537FCF00297067 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				D4789B1A25537F0A00297067 /* ContentView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		D4789B2D2553886000297067 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
